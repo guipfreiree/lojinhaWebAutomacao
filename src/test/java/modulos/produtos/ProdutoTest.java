@@ -73,7 +73,7 @@ public class ProdutoTest {
                 .submeterLogin()
                 .clicarBotaoAdicionarProdutos()
                 .informarNomeProduto("Super nitendo")
-                .informarValorProduto("80000")
+                .informarValorProduto("70000")
                 .informarCores("amarelo e preto")
                 .clicarParaCadastrarProdutoComSucesso()
                 .mensagemDeSucessoParaValorDeProduto();

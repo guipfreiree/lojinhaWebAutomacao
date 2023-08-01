@@ -3,11 +3,10 @@ package Paginas;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class EditarProdutoPage {
-    private WebDriver navegador;
+public class EditarProdutoPage extends BasePage{
 
     public EditarProdutoPage(WebDriver navegador) {
-        this.navegador = navegador;
+        super(navegador);
     }
 
     public String mensagemDeSucessoParaValorDeProduto() {

@@ -3,11 +3,10 @@ package Paginas;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class AdicionarProdutoPage {
-    private WebDriver navegador;
+public class AdicionarProdutoPage extends BasePage{
 
     public AdicionarProdutoPage (WebDriver navegador) {
-        this.navegador = navegador;
+        super(navegador);
     }
 
     public AdicionarProdutoPage informarNomeProduto(String nomeProduto) {

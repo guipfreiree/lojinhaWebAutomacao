@@ -3,11 +3,10 @@ package Paginas;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage {
-    private WebDriver navegador;
+public class LoginPage extends BasePage{
 
     public LoginPage (WebDriver navegador) {
-        this.navegador = navegador;
+        super(navegador);
     }
 
     public LoginPage informarUsuario (String usuario) {
